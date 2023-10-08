@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>JOC DEL PEDRA-PAPER-TISORES</h1>
+
+        <label><input type="radio" name="eleccion" value="piedra"> Pedra </label><br>
+        <label><input type="radio" name="eleccion" value="papel"> Paper </label><br>
+        <label><input type="radio" name="eleccion" value="tijera"> Tisores </label><br>
+    
+        <h2>RESULTAT DE LA JUGADA ACTUAL:</h2>
+        <p id="resultado"></p>
+    
+        <h2>JUGADES GUANYADES, PERDUDES I EMPATADES:</h2><br>
+        <p>Partides guanyades: <span id="ganadas">0</span></p>
+        <p>Partides perdudes: <span id="perdidas">0</span></p>
+        <p>Partides empatades: <span id="empatadas">0</span></p>
+    
+        <button type="button" id="jugar">Nova Jugada</button>
+        <button type="button" id="borrar-eleccion">Esborrar selecció</button>
+        <button type="button" id="borrar-clasificacion">Esborrar classificació</button>
+        <button type="button" id="borrar-resultado">Esborrar resultat</button>
+    
+        <script src="juego.js"></script>
+    </center>
+</body>
+</html>
